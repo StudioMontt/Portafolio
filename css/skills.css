@@ -1,0 +1,24 @@
+section.skills {
+    background-color: var(--col-de-fondo2);
+    padding: 2rem 3rem;
+}
+
+.skills__title {
+    text-align: center;
+}
+
+.skills__line {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.skills__box {
+    background-color: var(--col-de-li);
+    padding-top: 60px;
+    flex-basis: 150px;
+}
+
+.skills__img img {
+    height: 30px;
+}

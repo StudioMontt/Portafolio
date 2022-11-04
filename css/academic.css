@@ -1,0 +1,24 @@
+section.academic {
+    padding: 0 2.5rem 2rem;
+}
+
+.academic__title {
+    text-align: center;
+}
+
+.academic__courses {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    text-align: center;
+}
+
+.academic__courses__box {
+    flex-basis: 240px;
+}
+
+.academic__courses__item__img img {
+    width: auto;
+    height: 150px;
+    background-color: var(--col-de-li);
+}

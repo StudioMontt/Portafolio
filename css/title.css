@@ -1,0 +1,41 @@
+.title__div {
+    display: grid;
+    grid-template-columns: 60vw 40vw;
+    grid-template-rows: auto;
+    gap: 1rem;
+    padding: 1rem 2.5rem;
+}
+
+.title__profile {
+    grid-column: 2 / 3;
+    grid-row: 1/2;
+    width: 27vw;
+    max-width: 400px;
+    padding: 1rem;
+}
+
+.title__container {
+    grid-column: 1 / 2;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.title__network {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.title__network__item {
+    padding: 1rem;
+}
+
+.title__bio {
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.title__subsection {
+    font-size: 1rem;
+}
