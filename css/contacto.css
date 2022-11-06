@@ -1,6 +1,4 @@
-section.formcontacto {
-}
-
+section.formcontacto {}
 .formcontacto__contacto {
     display: flex;
     padding: 20px;
@@ -8,37 +6,48 @@ section.formcontacto {
     width: 80%;
     justify-content: center;
 }
-
 .formcontacto--esquerda {
     flex-shrink: 2;
 }
-
 .formcontacto__img {
     max-height: 595px;
 }
-
-.formcontacto__text {
-}
-
+.formcontacto__text {}
 .formcontacto__form {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
-
 .formcontacto__input {
     height: 50px;
     background-color: var(--col-de-li);
 }
-
 .formcontacto__textarea {
     height: 100px;
     resize: none;
 }
-
 .formcontacto__botao {
     width: 25%;
     height: 43px;
     color: var(--col-de-li);
     background-color: var(--col-de-link);
+}
+.input--invalid {
+    margin-bottom: 0.5rem;
+}
+.input--invalid .formcontacto__input {
+    border: 1px solid var(--col-de-error);
+    border-radius: 7px;
+}
+.input--invalid .input-label {
+    color: var(--col-de-error);
+}
+.input-message-error {
+    display: none;
+}
+.input--invalid .input-message-error {
+    color: var(--col-de-error);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
 }

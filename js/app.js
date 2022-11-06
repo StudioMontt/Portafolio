@@ -1,9 +1,9 @@
-import { validacion } from "./validacion.js";
-
+import {
+    validacion
+} from "./validation.js";
 const entradas = document.querySelectorAll("input");
-
-inputs.forEach((input) => {
-	input.addEventListener("blur", (input) => {
-		valida(entradas.target);
-	});
+entradas.forEach((input) => {
+    input.addEventListener("blur", (input) => {
+        validacion(input.target);
+    });
 });
