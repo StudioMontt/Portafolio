@@ -1,5 +1,5 @@
 section.academic {
-    padding: 0 2.5rem 2rem;
+    padding: 1rem 1.5rem;
 }
 
 .academic__title {
@@ -21,4 +21,11 @@ section.academic {
     width: auto;
     height: 150px;
     background-color: var(--col-de-li);
+}
+
+@media (max-width: 426px) {
+    .academic__courses {
+        flex-direction: column;
+        align-items: center;
+    }
 }

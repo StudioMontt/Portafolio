@@ -1,5 +1,5 @@
 section.skills {
-    background-color: var(--col-de-fondo2);
+    background-color: var(--col-de-fondo);
     padding: 2rem 3rem;
 }
 
@@ -11,6 +11,7 @@ section.skills {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
+    gap: 2%;
 }
 
 .skills__box {
@@ -21,4 +22,16 @@ section.skills {
 
 .skills__img img {
     height: 30px;
+}
+
+@media (max-width: 426px) {
+    .skills__line {
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+    }
+    .skills__box {
+        padding: 10px;
+        flex-basis: 100px;
+        }
 }

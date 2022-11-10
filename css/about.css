@@ -1,3 +1,8 @@
 section.about {
-	padding: 0 2.5rem 2rem;
+	padding: 1.5rem 2.5rem;
+	background-color: var(--col-de-fondo2);
+}
+
+.about__paragraph{
+	white-space: pre-line;
 }

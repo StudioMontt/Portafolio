@@ -59,7 +59,7 @@
                         </li>
                         <li class="menu__list__item__contato">
                             <a href="#contacto">
-                                electri.mv@gmail.com
+                                Contacto
                             </a>
                         </li>
                     </ul>
@@ -70,14 +70,10 @@
                     <img class="title__profile" src="assets/imagens/profile.png"/>
                     <div class="title__container">
                         <h2 class="title__bio">
-                            Qué tal!?, mi nombre es Marcelo y haré que tu sueño
-                            se plazme en una página web!!!
+                            Qué tal!?, mi nombre es Marcelo y haré que tu sueño se plazme en una página web!!!
                         </h2>
                         <h3 class="title__subsection">
-                            Soy Técnico Superior en Electrónica Industrial y
-                            Electromecánico, y desde éste año me estoy
-                            especializando como "Programador Web", cumpliendo a
-                            cabalidad del proyecto Oracle ONE en Alura Latam.
+                            Soy Técnico Superior en Electrónica Industrial y Electromecánico, y desde éste año me estoy especializando como "Programador Web", cumpliendo a cabalidad del proyecto Oracle ONE en Alura Latam.
                         </h3>
                         <ul class="title__network">
                             <li class="title__network__item">
@@ -94,7 +90,7 @@
                             </li>
                             <li class="title__network__item">
                                 <a href="">
-                                    Currículo
+                                    Currículum
                                     <img src="assets/icons/arrow.png"/>
                                 </a>
                             </li>
@@ -108,20 +104,13 @@
                         Sobre mi
                     </h3>
                     <p class="about__paragraph">
-                        Un amante de la tecnología!!! Desde niño un curioso por
-                        saber cómo funcionaban las cosas. Mi madre me dió la
-                        posibilidad de formarme como Electromecánico, y yo más
-                        tarde pude costearme el Técnico Superior en Electrónica
-                        Industrial.
-                    </p>
-                    <p class="about__paragraph">
-                        Fui uno de los mejores de mi generación como estudiante,
-                        y me he destacado así en mis trabajos. También cumplí
-                        mis sueños de enseñar como profesor de especialidad; y
-                        hoy he tomado el reto de ir más allá, aprender
-                        "Programación Web", demostrando nuevamente que mantengo
-                        esa curiosidad intacta y ganas de aprender; y en donde
-                        espero dedicarme de aquí en adelante!!!
+                        Un amante de la tecnología!!! Desde niño un curioso por saber cómo funcionaban las cosas.
+
+                        Mi madre me dió la posibilidad de formarme como Electromecánico, y yo más tarde pude costearme el Técnico Superior en Electrónica Industrial.
+                        
+                        Fui uno de los mejores de mi generación como estudiante, y me he destacado así en mis trabajos. 
+
+                        También cumplí mis sueños de enseñar como profesor de especialidad; y hoy he tomado el reto de ir más allá, aprender "Programación Web", demostrando nuevamente que mantengo esa curiosidad intacta y ganas de aprender; y en donde espero dedicarme de aquí en adelante!!!
                     </p>
                     <img class="logo" src="assets/logos/ElectriMV.png"/>
                 </div>
@@ -366,7 +355,7 @@
                 </div>
                 <div class="experience__box">
                     <img class="experience__img" src=""/>
-                    <div class="experience__info-container">
+                    <div class="experience__info">
                         <h2 class="experience__title">
                             Próximamente...
                         </h2>
@@ -376,14 +365,14 @@
                         <div class="experience__description">
                             <span class="experience__repo">
                                 <a href="">
-                                    <button class="experience__botao--repo">
+                                    <button class="experience__botao--repo" disabled>
                                         Repositorio
                                     </button>
                                 </a>
                             </span>
                             <span class="experience__demo">
                                 <a href="">
-                                    <button class="experience__botao--demo">
+                                    <button class="experience__botao--demo" disabled>
                                         Ver demo
                                     </button>
                                 </a>
@@ -410,35 +399,37 @@
                         </h3>
                         <form class="formcontacto__form" name="form">
                             <div class="input-container">
-                                <input class="formcontacto__input" data-tipo="nombre" maxlength="50" name="nombre" placeholder="Nombre" required="" title="Máximo 50 caracteres" type="text"/>
                                 <label class="input-label" for="name" required="">
                                     Nombre
                                 </label>
+                                <input class="formcontacto__input" data-tipo="nombre" maxlength="50" name="nombre" placeholder="Nombre" required="" title="Máximo 50 caracteres" type="text"/>
                                 <span class="input-message-error">
                                     Este campo no es valido
                                 </span>
                             </div>
                             <div class="input-container">
-                                <input class="formcontacto__input" data-tipo="email" name="email" placeholder="E-mail" required="" type="email"/>
                                 <label class="input-label" for="email" required="">
                                     Email
                                 </label>
+                                <input class="formcontacto__input" data-tipo="email" name="email" placeholder="E-mail" required="" type="email"/>
                                 <span class="input-message-error">
                                     Este campo no es valido
                                 </span>
                             </div>
                             <div class="input-container">
-                                <input class="formcontacto__input" data-tipo="asunto" maxlength="50" name="asunto" placeholder="Asunto" requerid="" type="text"/>
                                 <label class="input-label" for="asunto" required="">
                                     Asunto
                                 </label>
+                                <input class="formcontacto__input" data-tipo="asunto" maxlength="50" name="asunto" placeholder="Asunto" requerid="" type="text"/>
                                 <span class="input-message-error">
                                     Este campo no es valido
                                 </span>
                             </div>
                             <div class="input-container">
-                                <textarea class="formcontacto__textarea" cols="40" id="mensagem" maxlength="300" name="mensaje" placeholder="Mensaje" required="" rows="5" title="Máximo 300 caracteres">
-                                </textarea>
+                                <label class="input-label" for="mensaje" required="">
+                                    Mensaje
+                                </label>
+                                <textarea class="formcontacto__textarea" cols="40" id="mensage" maxlength="300" name="mensaje" placeholder="Mensaje" required="" rows="5" title="Máximo 300 caracteres"></textarea>
                             </div>
                             <div>
                                 <button class="formcontacto__botao" type="submit">

@@ -40,7 +40,7 @@ section.menu {
 	padding: 1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
 	.menu__list__item {
 		display: none;
 	}
