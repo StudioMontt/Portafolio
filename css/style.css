@@ -1,0 +1,57 @@
+:root {
+    --col-de-fondo: #c7d3fc;
+    --col-de-link: #000257;
+    --col-de-li: #fcfcfc;
+    --col-de-fondo2: #f2f2f2;
+    --col-de-error: #FF0000;
+}
+body {
+    box-sizing: border-box;
+    background-color: var(--col-de-fondo);
+    font-family: "Raleway";
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    text-align: justify;
+}
+ol, ul, li {
+    list-style: none;
+    padding-inline-start: 5px;
+    padding-inline-end: 5px;
+}
+a {
+    text-decoration: none;
+    color: var(--col-de-link);
+}
+button{
+    height: 2.2rem;
+    border-radius: 7px;
+
+}
+button:disabled {
+    background: gray;
+    border: 1px solid var(--col-de-li);
+    color: black;
+}
+input{
+    border: none;
+    border-radius: 7px;
+    padding-left: 0.5rem;
+}
+textarea{
+    border: none;
+    border-radius: 7px;
+    padding: 1rem;
+    text-align: justify;
+}
+@media (max-width: 425px) {
+    /*Menu*/
+    /*Titulo*/
+    /*Sección sobre mi*/
+    /*Skills*/
+    /*Hobbies*/
+    /*Formación Académica*/
+    /*Experiencia Profesional*/
+    /*Contacto*/
+    /*Footer*/
+}
